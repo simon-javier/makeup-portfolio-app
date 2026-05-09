@@ -10,7 +10,8 @@
                     A bespoke experience tailored for bridal, editorial, and high-fashion excellence.</p>
                 <div class="flex flex-col justify-center gap-4 md:gap-8 md:flex-row mt-12">
                     <a href="https://www.facebook.com/ahzalea0777"
-                        class="uppercase tracking-[1.2px] px-10 py-4 font-semibold bg-accent hover:bg-[#F5D9FF] transition-colors duration-300 text-tertiary">Book a Session</a>
+                        class="uppercase tracking-[1.2px] px-10 py-4 font-semibold bg-accent hover:bg-[#F5D9FF] transition-colors duration-300 text-tertiary">Book
+                        a Session</a>
                     <a href="https://www.facebook.com/ahzalea0777"
                         class="uppercase tracking-[1.2px] px-10 py-4 font-semibold border-2 border-dark-accent/30 hover:text-tertiary btn-animation after:bg-white after:outline-white after:outline-2">View
                         Gallery</a>
