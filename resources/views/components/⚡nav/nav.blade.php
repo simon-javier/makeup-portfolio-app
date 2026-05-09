@@ -1,4 +1,4 @@
-<header class="bg-dark/60 absolute h-14 lg:h-22.75 flex items-center w-full z-10" x-data="{ open: false }">
+<header class="bg-dark/60 sticky h-14 lg:h-22.75 flex items-center top-0 left-0 w-full z-10" x-data="{ open: false }">
     <nav class="flex wrapper justify-between tracking-[1.2px] gap-2 items-center uppercase">
         <a href="{{ route('home') }}" class="font-serif text-xl xl:text-3xl tracking-[-1.6px]" wire:navigate>AF<span
                 class="ml-1">’</span>s Beauty</a>
