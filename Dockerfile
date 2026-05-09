@@ -35,5 +35,5 @@ COPY .docker/nginx.conf /etc/nginx/http.d/default.conf
 # Expose the port Render expects
 EXPOSE 80
 
-# Start Nginx and PHP-FPM
-CMD ["sh", "-c", "php-fpm -D && nginx -g 'daemon off;'"]
+# Start Migrations, then PHP-FPM, then Nginx
+CMD ["sh", "-c", "php artisan migrate --force && php-fpm -D && nginx -g 'daemon off;'"]
