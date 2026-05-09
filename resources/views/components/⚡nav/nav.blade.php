@@ -1,5 +1,5 @@
 <header class="bg-dark/60 absolute h-14 lg:h-22.75 flex items-center w-full z-10" x-data="{ open: false }">
-    <nav class="flex w-11/12 md:w-10/12 mx-auto justify-between tracking-[1.2px] gap-2 items-center uppercase">
+    <nav class="flex wrapper justify-between tracking-[1.2px] gap-2 items-center uppercase">
         <a href="{{ route('home') }}" class="font-serif text-xl xl:text-3xl tracking-[-1.6px]" wire:navigate>AF<span
                 class="ml-1">’</span>s Beauty</a>
         <ul class="flex-1 gap-8 justify-center text-white/70 font-semibold hidden xl:flex">
@@ -12,7 +12,7 @@
         <a href="https://www.facebook.com/ahzalea0777" class="nav-btn btn-animation hidden xl:block">Book
             Now</a>
         {{-- Mobile Menu --}}
-        <button @click="open = !open" type="button" class="p-4 xl:hidden grid place-items-center cursor-pointer">
+        <button @click="open = !open" type="button" class="m-2 xl:hidden grid place-items-center cursor-pointer">
             {{-- hamburger --}}
             <svg class="col-start-1 row-start-1" x-transition:enter="transition transform duration-700"
                 x-transition:enter-start="-rotate-90 opacity-0" x-transition:leave="transition transform duration-100"

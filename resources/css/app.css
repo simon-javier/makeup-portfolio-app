@@ -43,6 +43,10 @@
 }
 
 @layer utilities {
+    .wrapper {
+        @apply w-full mx-4 md:mx-8 max-w-6xl xl:mx-auto;
+    }
+
     .btn-animation {
         transition: color 0.3s ease-in-out;
         position: relative;
