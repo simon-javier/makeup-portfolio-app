@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    container_name: afbeauty
+    ports:
+      - "8080:80"
+    env_file:
+      - .env.docker # Or just .env
