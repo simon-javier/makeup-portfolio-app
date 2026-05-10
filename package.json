@@ -22,6 +22,7 @@
         "lightningcss-linux-x64-gnu": "^1.29.1"
     },
     "devDependencies": {
+        "@alpinejs/intersect": "^3.15.12",
         "@shufo/prettier-plugin-blade": "^1.16.2",
         "prettier": "^3.8.3"
     }
