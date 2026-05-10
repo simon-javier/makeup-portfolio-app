@@ -54,4 +54,4 @@
             @click.stop>
     </div>
 </main>
-@vite('resources/js/masonry.pkgd.min.js')
+<script src="{{ asset('js/masonry.pkgd.min.js') }}"></script>
