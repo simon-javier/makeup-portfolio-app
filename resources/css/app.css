@@ -43,6 +43,10 @@
 }
 
 @layer utilities {
+    .wrapper {
+        @apply w-full px-4 md:px-8 max-w-6xl xl:mx-auto;
+    }
+
     .btn-animation {
         transition: color 0.3s ease-in-out;
         position: relative;
@@ -67,11 +71,32 @@
 }
 
 @layer components {
+    .gallery-btn {
+        &:hover {
+            @apply text-tertiary;
+        }
+    }
+
     .menu-item {
         display: inline-block;
         position: relative;
 
         transition: color 0.3s ease-in-out;
+
+        &[data-current] {
+            @apply text-accent;
+
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 2px;
+                background-color: var(--color-accent);
+                transform: scaleX(1);
+            }
+        }
 
         &::after {
             content: "";
@@ -96,7 +121,11 @@
     }
 
     .nav-btn {
-        @apply text-accent border-accent border px-8 py-2 xl:py-3 hover:text-tertiary font-semibold after:bg-accent;
+        @apply text-accent border-accent border px-8 py-2 xl:py-3 font-semibold after:bg-accent;
+
+        &:hover {
+            @apply text-tertiary;
+        }
 
         &::after {
             background-color: var(--color-accent);

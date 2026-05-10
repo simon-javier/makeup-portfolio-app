@@ -1,7 +1,5 @@
 {
-    "agents": [
-        "opencode"
-    ],
+    "agents": ["opencode"],
     "cloud": false,
     "guidelines": true,
     "mcp": true,
@@ -12,6 +10,7 @@
         "laravel-best-practices",
         "fluxui-development",
         "livewire-development",
-        "pest-testing"
+        "pest-testing",
+        "tailwindcss-development"
     ]
 }
