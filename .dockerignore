@@ -1,0 +1,6 @@
+.env
+vendor/
+node_modules/
+storage/framework/cache/*
+storage/framework/views/*
+storage/framework/sessions/*
