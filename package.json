@@ -24,6 +24,8 @@
     "devDependencies": {
         "@alpinejs/intersect": "^3.15.12",
         "@shufo/prettier-plugin-blade": "^1.16.2",
+        "imagesloaded": "^5.0.0",
+        "masonry-layout": "^4.2.2",
         "prettier": "^3.8.3"
     }
 }

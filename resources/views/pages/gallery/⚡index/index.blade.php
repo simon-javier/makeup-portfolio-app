@@ -54,4 +54,3 @@
             @click.stop>
     </div>
 </main>
-<script src="{{ asset('js/masonry.pkgd.min.js') }}"></script>
