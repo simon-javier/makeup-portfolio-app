@@ -10,6 +10,6 @@ new #[Title('Gallery')] class extends Component {
     #[Computed]
     public function images()
     {
-        return Image::all();
+        return Image::latest()->get();
     }
 };

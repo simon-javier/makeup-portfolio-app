@@ -1,5 +1,5 @@
-<main class="absolute inset-0">
-    <section class="h-full">
+<main class="relative inset-0 min-h-dvh">
+    <section class="h-dvh">
         <img src="{{ asset('images/hero_img.png') }}"
             class=" -z-100 w-full absolute h-full grayscale inset-0 object-[50%_40%] object-cover" alt="">
         <div class="absolute inset-0 bg-radial-[at_0%_100%] from-primary/40 to-dark/80 -z-99"></div>
