@@ -50,7 +50,7 @@
         </button>
 
         <!-- Image -->
-        <img :src="src" class="max-h-screen max-w-screen object-contain select-none" alt=""
+        <img :src="src" class="max-h-dvh max-w-screen object-contain select-none" alt=""
             @click.stop>
     </div>
 </main>

@@ -14,10 +14,11 @@
     @livewireScriptConfig
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<livewire:nav />
 
-<body class="min-h-screen bg-dark text-white">
+<body class="min-h-dvh bg-dark text-white">
+    <livewire:nav />
     {{ $slot }}
+    <livewire:footer />
 </body>
 
 </html>
