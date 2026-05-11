@@ -28,7 +28,7 @@
     --color-zinc-900: #171717;
     --color-zinc-950: #0a0a0a;
 
-    --color-dark: #141414;
+    --color-dark: #131313;
     --color-white: #e5e2e1;
     --color-primary: #7a1cac;
     --color-secondary: #ad88c6;
@@ -45,6 +45,10 @@
 @layer utilities {
     .wrapper {
         @apply w-full px-4 md:px-8 max-w-6xl xl:mx-auto;
+    }
+
+    .smallcaps {
+        font-variant: small-caps;
     }
 
     .btn-animation {
@@ -149,6 +153,10 @@
     h5,
     h6 {
         @apply font-serif;
+    }
+
+    p {
+        color: #d1c2d4;
     }
 }
 
